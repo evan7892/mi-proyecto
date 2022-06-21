@@ -448,17 +448,46 @@ footer {
   grid-column: 10 / 10;
   margin-left: 30px; }
 
-.blog1 {
+.blog1, .blog2, .blog3, .blog4 {
   font-family: 'Radio Canada', sans-serif;
   margin: 20px;
   margin-top: 40px;
-  font-size: 1rem; }
+  margin-bottom: 60px;
+  font-size: 1.3rem;
+  text-align: center; }
 
 .blog2 {
-  font-family: 'Radio Canada', sans-serif;
-  margin: 20px;
-  margin-top: 40px;
   font-size: 1rem; }
+
+.blog3 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold; }
+
+.blog4 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold; }
+
+.imagen-blog .imagenBlog {
+  width: 70%;
+  margin-right: 10%;
+  margin-left: 15%; }
+
+.imagen-blog .tit-blog {
+  text-align: center;
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 2rem;
+  color: palevioletred;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.imagen-blog .imagen-logo-blog {
+  width: 180px;
+  margin-top: 40px;
+  margin-left: 40%;
+  margin-right: 40%; }
 
 * {
   margin: 0;
@@ -1042,4 +1071,13 @@ header {
     margin-top: 10px; }
   .container-padre-img3 {
     grid-column: 3 / 10;
-    grid-row: 5 / 6; } }
+    grid-row: 5 / 6; }
+  .imagen-blog .imagen-logo-blog {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 40%;
+    margin-right: 40%; }
+  .imagen-blog .tit-blog {
+    font-size: 1.5rem; }
+  .imagen-blog .blog1, .imagen-blog .blog2, .imagen-blog .blog3, .imagen-blog .blog4 {
+    font-size: 1rem; } }

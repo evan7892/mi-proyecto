@@ -26,11 +26,45 @@
     font-family: 'Radio Canada', sans-serif;
     margin: 20px;
     margin-top: 40px;
-    font-size: 1rem;
+    margin-bottom: 60px;
+    font-size: 1.3rem;
+    text-align: center
 }
 .blog2{
     @extend .blog1;
+    font-size: 1rem;
 }
+.blog3{
+    @extend .blog1;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.blog4{
+    @extend .blog1;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
 .imagen-blog{
-    width: 70%;
+    .imagenBlog{
+        width: 70%;
+        margin-right: 10%;
+        margin-left: 15%;}
+    .tit-blog{
+        text-align: center;
+        font-family: 'Radio Canada', sans-serif;
+        font-size: 2rem;
+        color: palevioletred;
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .imagen-logo-blog{
+        width: 180px;
+        margin-top: 40px;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
 }
