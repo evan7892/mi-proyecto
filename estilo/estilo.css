@@ -1035,11 +1035,11 @@ header {
     font-size: 1rem; }
   .subtituloNina {
     grid-column: 1 / 4;
-    grid-row: 2 / 3; }
+    grid-row: 1 / 1; }
   .subtituloUnisex {
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    margin-top: 500px;
+    grid-row: 0 / 1;
+    margin-top: 100px;
     margin-bottom: none; }
   .portadaNina1 {
     width: 250px;
